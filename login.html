@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Login</title>
+<style>
+body
+{
+	background-image:url("back1.jpeg");	
+}
+.title
+{
+	text-align:center;
+	color:red;
+	margin: 25px 50px 75px 100px;
+}
+.form
+{
+	border-style: groove;
+	border-color:grey;
+	border-align:center;
+	width:480px;
+	margin: 35px 300px 45px 390px;
+	text-align:center;
+	text-shadow: 2px 2px 5px black;
+	text-weigth:strong;
+	font-size:140%;
+}
+input[type=text]
+{
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=password]
+{
+	background-iamge:url("circle.jpeg");
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.img
+{
+	width:100%;
+	margin: 0px 9px 20px 0px;
+	position:50px 80px;
+}
+</style>
+	</head>
+<body>
+	<div class="title">
+		<h1>WELCOME BACK TO SHAREPOINT</h1>
+	</div>
+	<div class="form">
+		<form action="main.html">
+			<br>
+			<div class="img">
+			<img src="/home/siri/Desktop/CN-CRC/SE_P/cicle.jpeg" width="100px">
+			</div>
+			<label for="name">Enter Your Email/User id</label><br><br>
+			<input type="text" class="name" placeholder="Your email/user id" name="name" required><br><br>
+			<label for="pass">Enter Password</label><br><br>
+			<input type="password" class="pass" name="pass" placeholder="Enter Password" required><br><br>
+			<input type="submit" class="submit" value="Login">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" onclick="forget.html" class="forget" value="Forget Password">
+		</form>
+	</div>
+</body>
+</html>

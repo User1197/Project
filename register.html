@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Register</title>
+<style>
+body
+{
+	background-image:url("back1.jpeg");
+	opacity:0.7;
+}
+.title
+{
+	text-align:center;
+	color:red;
+	margin: 25px 50px 75px 100px;
+}
+.form
+{
+	text-align:left;
+	text-shadow: 2px 2px 5px black;
+	text-weigth:strong;
+	font-size:100%;
+}
+input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+</style>
+</head>
+<body>
+	<div class="title">
+		<h1>WELCOME TO SHAREPOINT</h1>
+	</div>
+	<div class="form">
+		<form action="login.html" class="form">
+			<br>
+			<input type="text" placeholder="Enter Your First Name" required><br><br>
+			<input type="text" placeholder="Enter Your Last Name" required><br><br>
+			<input type="email" placeholder="Enter Your Email" required><br><br>
+			<input type="tel" placeholder="Enter Your Mobile Number" required><br><br>
+			<input type="password" placeholder="Enter Your Password" required><br><br>
+			<input type="password" placeholder="Confirm Your Password" required><br><br>
+			<input type="number" placeholder="Enter Your Aadhar Card Number" required><br><br>
+			<label for="country">Country</label>
+			<select id="country" name="country">
+				<option value="Select">Select</option>
+				<option value="India">India</option>
+				<option value="australia">Australia</option>
+				<option value="canada">Canada</option>
+				<option value="usa">USA</option>
+			</select>
+			<br><br>
+			<input type="submit" class="submit" value="register" onclick="login.html">
+			<br>
+		</form>
+	</div>
+</body>
+</html>
+
