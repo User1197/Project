@@ -1,12 +1,91 @@
 <html>
 	<head>
-		<title>Register</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Forget</title>
+		<style>
+			.body
+			{
+				background-image:url("back1.jpeg");
+			}
+			.title
+		{
+			font-face:courier;
+			color:black;
+			font-weight:bold;
+			font-size:250%;
+			margin:0;
+			padding:5px;
+			
+		}
+		.sub
+		{
+			font-face:Times New Roman;
+			color:green;
+			font-weight:bold;
+			font-weight:250%;
+			text-align:center;
+			position:relative;
+			left:-430px;
+			top:-89px;
+		}
+.forg
+{
+	border-style: groove;
+	border-color:grey;
+	border-align:center;
+	width:480px;
+	margin: -10px 300px 45px 390px;
+	text-align:center;
+	text-shadow: 2px 2px 5px black;
+	text-weigth:strong;
+	font-size:140%;
+}
+input[type=password]
+{
+	background-iamge:url("cicle.jpeg");
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.img
+{
+	width:100%;
+	margin: 0px 9px 20px 0px;
+	position:50px 80px;
+}
+		</style>
 	</head>
 	<body>
-		<div>
-			<h1>WELCOME TO SHAREPOINT</h1>
+		<div class="title">
+			<p><i>SHARE</i><p class="sub"><i>POINT</i></p></p>
 		</div>
-		<div>
+		<div class="forg">
+			<form class="form" action="login.html">
+				<br>
+				<div class="img">
+			<img src="/home/siri/Desktop/CN-CRC/SE_P/cicle.jpeg" width="100px">
+			</div>
+				<br>
+				<label>Enter Your New Password</label><br><br>
+				<input type="password" class="text" name="passwd" placeholder="Enter Your New password"><br><br>
+				<label>Enter Your New Password</label><br><br>
+				<input type="password" class="text" name="password" placeholder="Confirm Your New Password"><br><br>
+				<input type="submit" class="submit" value="Reset">
+			</form>
 		</div>
 	</body>
 </html>
